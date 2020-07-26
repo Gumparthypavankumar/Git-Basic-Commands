@@ -2,6 +2,9 @@ git init - initializing the new repository
 git remote add origin origin name- to add the origin where to submit the code
 git status - to get the status of files not uploaded to origin
 git add . -to add modified files
-git add -A - to add all files
+git add --all - to add all files
 git commit -m "your message" -to commit the changes you made
-git push -u origin master - push the files to master branch you can change the name of branch
+git push -u origin master - push the files to master branch you can change the name of branch u indicates upstream
+git log --oneline to see all the commit history with the commit id
+else you want complete information about logs then use git log --list
+git remote show origin -- to get the origin 
